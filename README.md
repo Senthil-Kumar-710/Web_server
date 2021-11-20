@@ -19,9 +19,6 @@ Serving the HTML pages.
 
 Testing the webserver
 ## PROGRAM:
-## OUTPUT:
-## RESULT:
-
 ```
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content ="""
@@ -51,7 +48,5 @@ httpd.serve_forever()
 ```
 ## OUTPUT:
 ![GitHub Logo](unknown.png)
-
 ## RESULT:
 A WebServer Has Been Created Successfully!
-
